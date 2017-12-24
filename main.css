@@ -4,8 +4,160 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
   background: lightyellow;
+}
+
+.clear:after{
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.intro-banner{
+  height: 300px;
+  background: #333;
+  width: inherit;
+  border-bottom: 1px solid #ddd;
+  overflow: hidden;
+}
+
+.banner-content {
+  margin: 75px auto;
+  position: relative;
+  left: 50%;
+  transform: translateX(-25%);
+}
+
+.banner-content .avatar{
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background: #fff;
+}
+
+.banner-content .avatar img{
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.banner-content .intro-content{
+  float: left;
+  margin-left: 30px;
+  height: 150px;
+}
+
+.banner-content .intro-content .name{
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+
+.banner-content .intro-content .hint{
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.banner-content .intro-content .hint a{
+  color: #fff;
+  text-decoration: none;
+}
+
+.intro-content .passinate {
+  font-size: 20px;
+  color: #fff;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.intro-content .passinate .text-rotator{
+  display: inline-block;
+}
+
+.content-container{
+  height: calc(100% - 300px);
+  width: inherit;
+  background: #FBFBFB;
+}
+
+.content {
+  float: left;
+  width: calc(100% / 3);
+  height: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding: 20px;
+}
+
+.content::after{
+  content: "";
+  height: calc(100% - 40px);
+  width: 1px;
+  position: absolute;
+  background: #ddd;
+  right: 0;
+  top: 20px;
+}
+
+.content:last-child::after{
+  content: none;
+}
+
+.center-align-y {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.content > h2{
+  font-size: 20px;
+}
+
+.content ul {
+  margin-top: 10px;
+}
+
+.skills li{
+  float: left;
+  height: 125px;
+  width: calc((100% / 3) - 7px);
+  box-shadow: 0 1px 1px -1px #777;
+  margin: 5px;
+  background: #fff;
+  transition: all 0.2s linear;
+  text-align: center;
+}
+
+.skills li:hover{
+  /* box-shadow: 0 10px 6px -6px #777; */
+  box-shadow: 0 4px 5px 0 rgba(0,0,0,0.14), 0 1px 10px 0 rgba(0,0,0,0.12), 0 2px 4px -1px rgba(0,0,0,0.3);
+}
+
+.skills li:nth-child(3n + 1){
+  margin-left: 0px;
+}
+
+.skills li:nth-child(3n + 3){
+  margin-right: 0px;
+}
+
+.skills li img{
+  height: 100%;
+  width: 100%;
+  transform: scale(0.5);
+}
+
+.skills li:hover img{
+  transition: all 5s linear;
+  transform: scale(0.8);
+}
+
+.content.activities li,
+.content.hobbies li{
+  margin: 10px 0px;
 }
