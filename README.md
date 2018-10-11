@@ -2,7 +2,7 @@
 
 [<img src="images/github.svg" height="20">](https://github.com/saravanan10393)
 [<img src="images/medium.png" height="20">](https://medium.com/@saravananr_93203) 
-[<img src="images/stackoverflow.png" height="20">](https://github.com/saravanan10393)
+[<img src="images/stackoverflow.png" height="20">](https://stackoverflow.com/users/6664198/saravanan-ramupillai)
 [<img src="images/facebook.png" height="20">](https://www.facebook.com/saravananramupillai)
 [<img src="images/twitter.png" height="20">](https://twitter.com/saravanan10393)
 [<img src="images/linkedin.png" height="20">](https://www.linkedin.com/in/saravananramupillai/)
