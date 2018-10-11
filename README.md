@@ -20,7 +20,7 @@
     * HTML
     * CSS3
   * **Scripting**
-    * Vennila avascript
+    * Vennila Javascript
     * JQeury
   * **Framework / Library**
     * Angular
